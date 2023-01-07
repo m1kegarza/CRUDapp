@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: lightgray;
+}
+header {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 315px;
+}
+section{
+    margin: 250px 300px;
+}
