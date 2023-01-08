@@ -32,17 +32,13 @@ form{
 form #desctxt{
   width: 50%;
   height: 25px;
-  margin-right: 50%;
-  margin-top: 20px;
 }
 form button{
   width: 25%;
   height: 25px;
-  margin-top: 20px;
 }
 form p{
-  margin-top: 40px;
-  margin-bottom: 0px;
+  margin: 0;
 }
 
 form #datetxt, #timetxt{
