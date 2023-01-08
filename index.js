@@ -30,6 +30,11 @@ document.getElementById("timetxt").value = '';
 render()
 }
 
+function borrar(){
+    localStorage.removeItem(getElementById)
+    render()
+}
+
 function render(){
     console.log(localStorage.getItem('reminders'));
     let lista = document.getElementById("lista");
@@ -42,6 +47,7 @@ function render(){
         <p> ${element.desc} </p>
         <p> ${element.fecha} </p>
         <p> ${element.hora} </p>
+        <button id="Borrar" onclick="borrar()">Borrar</button>
         `
     });
 }
