@@ -18,5 +18,7 @@ footer {
   margin-top: 315px;
 }
 form{
-    margin: 250px 300px;
+    margin: 100px 100px;
+    border-style: solid;
+    padding: 75px;
 }
