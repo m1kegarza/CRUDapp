@@ -48,10 +48,12 @@ function render(){
 }
 
 function borrar(position){
-    let datos = JSON.parse(localStorage.getItem("reminders")) ? JSON.parse(localStorage.getItem("reminders")) : []
-    datos.splice(position, 1)
-    localStorage.setItem('datos', datos)
-    render()
+let datos = JSON.parse(localStorage.getItem("reminders")) ? JSON.parse(localStorage.getItem("reminders")) : []
+  console.log(datos.splice(position, 1))
+  console.log(JSON.stringify(datos))
+  localStorage.setItem('reminders', JSON.stringify(datos))
+  render()
+  console.log('borrado')
 }
 
 render()
