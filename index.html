@@ -12,13 +12,27 @@
       <h1>CRUD app project</h1>
     </header>
 
-    <section>
+    <form>
       <h1>Crea recordatorios</h1>
+      <input type="text" id="desctxt"/>
+      <label for="Limite">Fecha limite</label>
+      <input type="date" id="datetxt"/>
+      <input type="time" name="" id="timetxt" />
       <button id="Agregar">Agregar</button>
-      <input type="text" />
-      <input type="date" />
-      <input type="time" name="" id="" />
-    </section>
+    </form>
+
+    <form>
+      <label for="nombretxt">Nombre</label>
+      <input type="text" id="nombretxt" />
+      <label for="apellidotxt">Apellido</label>
+      <input type="text" id="apellidotxt" />
+      <label for="edadtxt">Edad</label>
+      <input type="number" id="edadtxt" />
+
+      <button id="boton" onclick="guardar()">Enviar</button>
+    </form>
+
+    <div id="lista"></div>
 
     <footer>
       <p>© 2023 Miguel Garza. Todos los derechos reservados.</p>
