@@ -16,55 +16,127 @@ footer {
   text-align: center;
   padding: 20px;
 }
-form{
+form {
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
   margin: 10%;
-  border-radius: 15px; 
+  border-radius: 15px;
   padding: 5px;
   justify-content: space-around;
 }
-#formhead{
+#formhead {
   margin-left: 5px;
   margin-right: 5px;
 }
-form #desctxt{
+form #desctxt {
   width: 75%;
   height: 25px;
 }
-form button{
+form button {
   width: 50%;
   height: 35px;
   margin-bottom: 5px;
 }
-form p{
+form p {
   /* margin: 0; */
 }
 
-form #datetxt, #timetxt{
-  width:25%;
+form #datetxt,
+#timetxt {
+  width: 25%;
   height: 25px;
   margin: 16px 0;
 }
-#lista{
+#lista {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   border-style: solid;
   margin: 10%;
-  border-radius: 15px; 
+  border-radius: 15px;
   justify-content: flex-start;
   padding: 5px;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
-#lista p{
-  margin-right: 35px;
+#lista p {
+  margin-right: 20px;
 }
 
-#lista button{
-  justify-content: flex-end;
+#lista button {
+  margin-right: 20px;
+}
+
+
+/* -----------------mobile design --------------------------*/
+@media screen and (max-width: 767px) {
+  header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+  }
+  footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: 10%;
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  #formhead {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  form #desctxt {
+    width: 75%;
+    height: 25px;
+  }
+  form button {
+    width: 50%;
+    height: 35px;
+    margin-bottom: 5px;
+  }
+  form p {
+    /* margin: 0; */
+  }
+
+  form #datetxt,
+  #timetxt {
+    width: 25%;
+    height: 25px;
+    margin: 16px 0;
+  }
+  #lista {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: 10%;
+    border-radius: 15px;
+    justify-content: flex-start;
+    padding: 5px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  #lista p {
+    margin-right: 20px;
+  }
+
+  #lista button {
+    margin-right: 20px;
+  }
 }
