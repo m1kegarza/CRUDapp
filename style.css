@@ -38,12 +38,7 @@ form button {
   height: 35px;
   margin-bottom: 5px;
 }
-form p {
-  /* margin: 0; */
-}
-
-form #datetxt,
-#timetxt {
+form #datetxt, #timetxt {
   width: 25%;
   height: 25px;
   margin: 16px 0;
