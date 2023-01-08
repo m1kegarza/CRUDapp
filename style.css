@@ -64,12 +64,6 @@ h1 {
 #lista p {
   margin-right: 20px;
 }
-
-#lista button {
-  /* padding:  */
-}
-
-
 /* -----------------mobile design --------------------------*/
 @media screen and (max-width: 767px) {
   header {
@@ -107,10 +101,6 @@ h1 {
     height: 35px;
     margin-bottom: 5px;
   }
-  form p {
-    /* margin: 0; */
-  }
-
   form #datetxt, #timetxt {
     width: 25%;
     height: 25px;
