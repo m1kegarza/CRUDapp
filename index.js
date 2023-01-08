@@ -61,5 +61,6 @@ function render(){
         <p> ${element.edad} </p>
         `
     });
-}
+}}
+
 render()
